@@ -1,5 +1,7 @@
 let toggleNavStatus = false;
 
+//elements needed
+
 let toggleNav = function() {
     let getSidebar =document.querySelector(".nav-sidebar");
     let getSidebarUl =document.querySelector(".nav-sidebar ul");
@@ -30,7 +32,7 @@ let toggleNav = function() {
             getSidebarLinks[i].style.opacity = "0";
         }
 
-        getSidebarLinks.style.visibility = "hidden";
+        getSidebarUl.style.visibility = "hidden";
 
         toggleNavStatus = false;
     }
