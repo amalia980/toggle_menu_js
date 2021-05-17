@@ -1,0 +1,9 @@
+:root {
+    --main-bg-color: lightgray;
+    --nav-bg-color: white;
+    --btn-nav--bg-color: purple;
+    --text-color: #111;
+    --sidenav-bg-color: black;
+    --sidenav-text-color: white;
+    --sidenav-hover-color: #222;
+}
